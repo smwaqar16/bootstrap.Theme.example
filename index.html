@@ -1,81 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.js"></script>
 
 
 </head>
+
 <body>
-    
-<nav class="navbar navbar-inverse navbar-fixed-top">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Project name</a>
             <div id="navbar" class="collapse navbar-collapse">
-               <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Nav header</li>
+                            <li><a href="#">Separated link</a></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
 
 
-<div  class="container theme-showcase" role="main">
-    <div class="jumbotron">
-    <h1>Theme example</h1>
-    <p>
-        This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point<br>
-         to create something more unique by building on or modifying it.
-    </p>
-</div>
+    <div class="container theme-showcase" role="main">
+        <div class="jumbotron">
+            <h1>Theme example</h1>
+            <p>
+                This is a template showcasing the optional theme stylesheet included in Bootstrap. Use it as a starting point<br>                to create something more unique by building on or modifying it.
+            </p>
+        </div>
+    </div>
+
+
+    <h1 class="container"> Buttons </h1>
+    <hr class="container">
+    <div class="container">
+        <p>
+            <button type="button" class="btn btn-lg btn-default">Default</button>
+            <button type="button" class="btn btn-lg btn-primary">Primary</button>
+            <button type="button" class="btn btn-lg btn-success">Succes</button>
+            <button type="button" class="btn btn-lg btn-info">info</button>
+            <button type="button" class="btn btn-lg btn-warning">Warning</button>
+            <button type="button" class="btn btn-lg btn-danger">danger</button>
+            <button type="button" class="btn btn-lg btn-link">link</button>
+        </p>
+        <p>
+            <button type="button" class="btn btn-default">Default</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-success">Succes</button>
+            <button type="button" class="btn btn-info">info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">danger</button>
+            <button type="button" class="btn btn-link">link</button></p>
+        <p>
+            <button type="button" class="btn btn-sm btn-default">Default</button>
+            <button type="button" class="btn btn-sm btn-primary">Primary</button>
+            <button type="button" class="btn btn-sm btn-success">Succes</button>
+            <button type="button" class="btn btn-sm btn-info">info</button>
+            <button type="button" class="btn btn-sm btn-warning">Warning</button>
+            <button type="button" class="btn btn-sm btn-danger">danger</button>
+            <button type="button" class="btn btn-sm btn-link">link</button></p>
+        <p>
+            <button type="button" class="btn btn-xs btn-default">Default</button>
+            <button type="button" class="btn btn-xs btn-primary">Primary</button>
+            <button type="button" class="btn btn-xs btn-success">Succes</button>
+            <button type="button" class="btn btn-xs btn-info">info</button>
+            <button type="button" class="btn btn-xs btn-warning">Warning</button>
+            <button type="button" class="btn btn-xs btn-danger">danger</button>
+            <button type="button" class="btn btn-xs btn-link">link</button></p>
+  
+    <h1 class="container">Tables</h1>
+    <hr class="container">
+<div class="col-md-6">
+    <table class="table">
+        <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td>Jacob </td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td> @twitter</td>
+            </tr>
+    </table>
 </div>
 
 
-<h1 class="container"> Buttons   </h1>
-<hr class="container">
+<div class="col-md-6">
+    <table class="table">
+        <tr class="active">
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td>Jacob </td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <tr class="active">
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td> @twitter</td>
+            </tr>
+    </table>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="col-md-6">
+    <table class="table table-bordered">
+        <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td>Jacob </td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <tr class="active">
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td> @twitter</td>
+            </tr>
+    </table>
+</div>
+
+
+
+<div class="col-md-6">
+    <table class="table">
+        <tr>
+        <th>#</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Username</th>
+        </tr>
+        <tr>
+
+            <td>1</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+        </tr>
+        <tr>
+            <td>2 </td>
+            <td>Jacob </td>
+            <td>Thornton</td>
+            <td>@fat</td>
+            <tr>
+                <td>3</td>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td> @twitter</td>
+            </tr>
+    </table>
+</div>
+
+
+
+  </div>
+
+
+
 <div class="container">
-<button type="button" class="btn btn-lg btn-default">Default</button>
-<button type="button" class="btn btn-lg btn-primary">Primary</button>
-<button type="button" class="btn btn-lg btn-success">Succes</button>
-<button type="button" class="btn btn-lg btn-info">info</button>
-<button type="button" class="btn btn-lg btn-warning">Warning</button>
-<button type="button" class="btn btn-lg btn-danger">danger</button>
-<button type="button" class="btn btn-lg btn-link">link</button>
-<br>
-<button type="button" class="btn btn-default">Default</button>
-<button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-success">Succes</button>
-<button type="button" class="btn btn-info">info</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-danger">danger</button>
-<button type="button" class="btn btn-link">link</button>
+<h1 class="container">Thumbnails</h1>
+  <hr class="container">
+<img src="images.jpg" class="img-thumbnail">
+
+
+
+
+
+<div class="page-header">
+<h1>Labels</h1></div>
+<!--<hr class="container">-->
+
+
+<h1>
+            <span class="label label-default"> Default </span>
+
+            <span class="label label-primary" > Primary </span>
+            
+            <span class="label label-success"> Success </span>
+            
+            <span class="label label-info"> Info </span>
+            
+            <span class="label label-warning"> Warning </span>
+            
+            <span class="label label-danger"> Danger </span>
+           
+        </h1>
+
+
+<h2>
+
+  <span class="label label-default"> Default </span>
+
+            <span class="label label-primary" > Primary </span>
+            
+            <span class="label label-success"> Success </span>
+            
+            <span class="label label-info"> Info </span>
+            
+            <span class="label label-warning"> Warning </span>
+            
+            <span class="label label-danger"> Danger </span>
+
+</h2>
+
+
+
+
+<h3>
+
+  <span class="label label-default"> Default </span>
+
+            <span class="label label-primary" > Primary </span>
+            
+            <span class="label label-success"> Success </span>
+            
+            <span class="label label-info"> Info </span>
+            
+            <span class="label label-warning"> Warning </span>
+            
+            <span class="label label-danger"> Danger </span>
+
+</h3>
+
+
+
+
+<h4>
+
+  <span class="label label-default"> Default </span>
+
+            <span class="label label-primary" > Primary </span>
+            
+            <span class="label label-success"> Success </span>
+            
+            <span class="label label-info"> Info </span>
+            
+            <span class="label label-warning"> Warning </span>
+            
+            <span class="label label-danger"> Danger </span>
+
+</h4>
+
+
+
+
+<h5>
+
+  <span class="label label-default"> Default </span>
+
+            <span class="label label-primary" > Primary </span>
+            
+            <span class="label label-success"> Success </span>
+            
+            <span class="label label-info"> Info </span>
+            
+            <span class="label label-warning"> Warning </span>
+            
+            <span class="label label-danger"> Danger </span>
+
+</h5>
+
+
+
+
+<h6s>
+
+  <span class="label label-default"> Default </span>
+
+            <span class="label label-primary" > Primary </span>
+            
+            <span class="label label-success"> Success </span>
+            
+            <span class="label label-info"> Info </span>
+            
+            <span class="label label-warning"> Warning </span>
+            
+            <span class="label label-danger"> Danger </span>
+
+</h6>
 
 
 
 
 
 
+<div class="page-header">
+<h1>Badges</h1>
 
 
+<p>
+    <a href="#">Inbox<samp class="badge">42  </samp></a>
+</p>
+
+
+
+
+</div>
 
 
 
@@ -83,6 +369,31 @@
 
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
